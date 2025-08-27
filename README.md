@@ -36,12 +36,12 @@ docker-compose up --build -d
 🌐 http://localhost:3000 
 
 ## 🧩 Технологии
-Backend - Python, FastAPI, SQLAlchemy, PyTorch
-Frontend - Vue 3, Three.js, Chart.js
-Firmware - C++ (STM32/Arduino), SPI/I2C
-Визуализация - 3D WebGL, OpenCV
-Сборка - Docker, Docker Compose
-CI/CD - GitHub Actions
+  - Backend - Python, FastAPI, SQLAlchemy, PyTorch
+  - Frontend - Vue 3, Three.js, Chart.js
+  - Firmware - C++ (STM32/Arduino), SPI/I2C
+  - Визуализация - 3D WebGL, OpenCV
+  - Сборка - Docker, Docker Compose
+  - CI/CD - GitHub Actions
 
 ## 🙌 Благодарности 
 
