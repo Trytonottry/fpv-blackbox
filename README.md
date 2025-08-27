@@ -1,6 +1,5 @@
 # 🛩️ FPV Blackbox Analyzer
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![CI/CD](https://img.shields.io/github/actions/workflow/status/Trytonottry/fpv-blackbox/ci.yml?label=CI&logo=github)](https://github.com/Trytonottry/fpv-blackbox/actions)
 [![GitHub Stars](https://img.shields.io/github/stars/Trytonottry/fpv-blackbox?style=social)](https://github.com/Trytonottry/fpv-blackbox)
 [![GitHub Issues](https://img.shields.io/github/issues/Trytonottry/fpv-blackbox)](https://github.com/Trytonottry/fpv-blackbox/issues)
 [![GitHub Forks](https://img.shields.io/github/forks/Trytonottry/fpv-blackbox?style=social)](https://github.com/Trytonottry/fpv-blackbox)
