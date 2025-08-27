@@ -1,0 +1,3 @@
+DATABASE_URL=sqlite:///./data/db.sqlite
+LOG_DIR=uploads/logs
+VIDEO_DIR=uploads/videos

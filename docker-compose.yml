@@ -1,0 +1,31 @@
+version: '3.8'
+
+services:
+  backend:
+    build: ./backend
+    ports: ["8000:8000"]
+    environment:
+      - DATABASE_URL=postgresql://user:pass@db/fpv
+      - AWS_ACCESS_KEY=...
+    depends_on: [db]
+
+  db:
+    image: postgres:15
+    environment: [POSTGRES_*]
+
+  frontend:
+    build: ./frontend
+    ports: ["3000:80"]
+
+  mobile:
+    build: ./mobile
+    # Разворачивается отдельно
+
+  nginx:
+    image: nginx
+    ports: ["80:80"]
+    volumes: [./nginx.conf:/etc/nginx/nginx.conf]
+
+  ai-worker:
+    image: pytorch/pytorch
+    command: python ai/train.py
